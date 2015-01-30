@@ -83,7 +83,7 @@ $('#icon2').on({
 				'top': '3%',
 				'opacity': '0.7'
 			}, 500);
-			$('.bg').css('background-image','url(img/webads/banner_webads'+imageIndex2+'.jpg)');
+			$('.bg').css('background-image','url(img/we/banner_we'+imageIndex2+'.jpg)');
 			$('.arrow').css('opacity','0.8')
 
 			if(expand1 === true) {
@@ -331,7 +331,7 @@ $('#next').on({
 			{
 				imageIndex2 = 1;
 			}
-			$('.bg').css('background-image','url(img/webads/banner_webads'+imageIndex2+'.jpg)');
+			$('.bg').css('background-image','url(img/we/banner_we'+imageIndex2+'.jpg)');
 		}
 		if(image3 === true){
 			imageIndex3++;
@@ -376,7 +376,7 @@ $('#prev').on({
 			{
 				imageIndex2 = 7;
 			}
-			$('.bg').css('background-image','url(img/webads/banner_webads'+imageIndex2+'.jpg)');
+			$('.bg').css('background-image','url(img/we/banner_we'+imageIndex2+'.jpg)');
 		}
 		if(image3 === true){
 			imageIndex3--;
