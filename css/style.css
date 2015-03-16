@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -115,26 +115,26 @@ h3 {
 }
 
 a:link {
-    color: #3E454C;
-    text-decoration: none;
+	color: #3E454C;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #3E454C;
-    text-decoration: none;
+	color: #3E454C;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #FF7F66;
-    text-decoration: none;
+	color: #FF7F66;
+	text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: #3E454C;
-    text-decoration: none;
+	color: #3E454C;
+	text-decoration: none;
 }
 
 #iamgif {
@@ -204,7 +204,10 @@ a:active {
 }
 
 
-
+.not_active {
+	pointer-events: none;
+	cursor: default;
+}
 
 
 #clients {
@@ -270,11 +273,11 @@ a:active {
 	text-align: center;
 }
 
-.recruitingLink {
+.recruitingLinkKorea {
 	font-family: 'Lato', Sans-serif;
 	font-size: 1.2em;
 	font-weight: 300;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	padding-top: 40px;
 	width: 600px;
 	color: #2185C5;
@@ -284,27 +287,65 @@ a:active {
 }
 
 
-.recruitingLink > a:link {
-    text-decoration: underline;
-    font-family: 'Lato', Sans-serif;
+.recruitingLinkKorea > a:link {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
 	color: #2185C5;
 }
 
-.recruitingLink > a:hover {
- 	text-decoration: underline;
-    font-family: 'Lato', Sans-serif;
+.recruitingLinkKorea > a:hover {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
 	color: #2185C5;
 }
 
-.recruitingLink > a:visited {
- 	text-decoration: underline;
-    font-family: 'Lato', Sans-serif;
+.recruitingLinkKorea > a:visited {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
 	color: #2185C5;
 }
 
-.recruitingLink > a:active {
- 	text-decoration: underline;
-    font-family: 'Lato', Sans-serif;
+.recruitingLinkKorea > a:active {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLinkChina {
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	width: 600px;
+	color: #2185C5;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.recruitingLinkChina > a:link {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLinkChina > a:hover {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLinkChina > a:visited {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLinkChina > a:active {
+	text-decoration: underline;
+	font-family: 'Lato', Sans-serif;
 	color: #2185C5;
 }
 
@@ -365,14 +406,14 @@ a:active {
 	text-align: center;
 }
 
-#contact{
-	padding-top: 80px;
+.contact{
+	padding-top: 1300px;
 	background-color: #F7F5F2;
 	min-width: 100%;
 	height: 600px;
 	margin: auto;
 	text-align: center;
-	}
+}
 
 .contactTitle {
 	width: 600px;
