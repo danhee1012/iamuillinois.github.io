@@ -570,3 +570,10 @@ a:active {
 .shortLine {
 	width: 20px;
 }
+
+.longLine {
+	width: 100px;
+}
+hr {
+	text-align: center;
+}
