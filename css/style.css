@@ -566,3 +566,7 @@ a:active {
 #staff1 {
 	padding-top: 40px;
 }
+
+.shortLine {
+	width: 20px;
+}
