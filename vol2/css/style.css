@@ -341,6 +341,7 @@ background-color: grey;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	opacity: 0.7;	
 }
 
 .left_content {
@@ -365,7 +366,6 @@ background-color: grey;
 	clear: both;
 	margin: auto;
 	padding: 0;
-
 }
 
 .left_title {
@@ -453,7 +453,17 @@ background-color: grey;
 	visibility: visible;
 	display: block;
 }
+
+#about_content {
+	top: 45%; !important
+}
+
 /*client*/
+#client_left_bg {
+	background-image: url(../img/bg/client_bg.JPG); 
+	background-position: right;
+	opacity: 1.0;
+}
 
 #client_icons {
 	position: relative;
@@ -487,7 +497,7 @@ background-color: grey;
 /*team & career*/
 #team_left_bg {
 	background-image: url(../img/bg/team_bg.png); 
-	background-position: center;
+	background-position: right;
 }
 
 #team_content {
@@ -518,6 +528,11 @@ background-color: grey;
 	display: block;
 }
 /*career*/
+#career_left_bg {
+	background-image: url(../img/bg/career_bg.JPG);
+	background-position: top;
+	opacity: 1.0
+}
 
 #career_content {
 	width: 95%;
