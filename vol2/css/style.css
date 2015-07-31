@@ -430,6 +430,10 @@ background-color: grey;
 }
 
 /*about*/
+#about_left_bg {
+	background-image: url(../img/bg/about_bg.JPG); 
+	background-position: center;
+}
 
 .about_details {
 	width: 80%;
@@ -481,6 +485,10 @@ background-color: grey;
 	width: 60%;
 }
 /*team & career*/
+#team_left_bg {
+	background-image: url(../img/bg/team_bg.png); 
+	background-position: center;
+}
 
 #team_content {
 	width: 80%;
