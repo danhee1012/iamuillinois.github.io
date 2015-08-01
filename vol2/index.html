@@ -23,24 +23,6 @@ Web Developer: Lijin Guo
 	</head>
 
 	<body ng-app="IAM" ng-controller="MainCtrl">
-		<!--<div class="nav">
-<div class="nav_left">
-<button id="nav_disappear"><img height="30px" width="50px" src="img/nav/arrow.png"></button>
-</div>
-<div class="nav_right">
-<div class="nav_row">
-<a class="nav_button" href="#/home"><div class="nav_col"><div class="nav_content"><img id="nav_iam_icon" src="img/nav/iam_logo_white.png"></div></div></a>
-<a class="nav_button" href="#/about"><div class="nav_col"><div class="nav_content"><img class="nav_icon" src="img/nav/icon_about.png"><h4 align="center">About Us</h4></div></div></a>
-<a class="nav_button" href="#/team"><div class="nav_col"><div class="nav_content"><img class="nav_icon" src="img/nav/icon_team.png"><h4 align="center">The Team</h4></div></div></a>
-</div>
-<div class="nav_row">
-<a class="nav_button" href="#/clients"><div class="nav_col"><div class="nav_content"><img class="nav_icon" src="img/nav/icon_clients.png"><h4 align="center">Clients</h4></div></div></a>
-<a class="nav_button" href="#/careers"><div class="nav_col"><div class="nav_content"><img class="nav_icon" src="img/nav/icon_careers.png"><h4 align="center">Careers</h4></div></div></a>
-<a class="nav_button" href="#/contact"><div class="nav_col"><div class="nav_content"><img class="nav_icon" src="img/nav/icon_contact.png"><h4 align="center">Contact</h4></div></div></a>
-</div>
-</div>
-</div>-->
-
 		<div class="nav">
 			<div class="nav_row">
 				<a ng-repeat="nav in navs" href="#{{ nav.id }}" class="nav_button">
@@ -52,11 +34,10 @@ Web Developer: Lijin Guo
 					</div>
 				</a>
 			</div>
-			<div class="nav_black"></div>
 		</div>
 
-		<div id="logo"><img class="" src="img/logo_white_background.png">
-		</div>
+		<a id="logo" href="#/home"><img class="" src="img/logo_white_background.png">
+		</a>
 
 		<div data-ui-view id="whole_page"></div>
 

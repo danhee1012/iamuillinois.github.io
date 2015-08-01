@@ -7,21 +7,19 @@ Web Dvgtggtgteveloper: Lijin Guo
 */
 $(document).ready(function () {
 	//nav bar appears when clicked on nav_trigger button
-	$(document).on("click", ".nav_trigger", function () {
-		$(".nav").addClass("is-visible");
-		console.log('hey');
-	});
 
-	// nav bar disappears when clicked on nav_disappear button
-	$(document).on("click", "#nav_disappear", function () {
-		$(".nav").removeClass("is-visible");
+	$( ".nav_trigger" ).click(function() {
+		$(".nav").fadeIn("slow");
 	});
 
 	// nav bar disappears when redirected to other routes
-	$(document).on("click", ".nav_button", function () {
-		$(".nav").removeClass("is-visible");
+	$(".nav_button").click(function () {
+		$(".nav").fadeOut("fast");
 	});
 
+	$("body :not(.nav_trigger)").on("click", function(e){ 
+		$(".nav").fadeOut("fast");
+	});
 	// currently selected about on "about route"
 	var about_curr_name = "aboutiam";
 
