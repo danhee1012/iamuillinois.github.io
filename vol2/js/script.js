@@ -9,7 +9,7 @@ $(document).ready(function () {
 	//nav bar appears when clicked on nav_trigger button
 
 	$(".nav_trigger").click(function() {
-		$(".nav").fadeIn(4000);
+		$(".nav").fadeIn("fast");
 	});
 
 	// nav bar disappears when redirected to other routes
