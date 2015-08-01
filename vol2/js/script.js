@@ -10,6 +10,7 @@ $(document).ready(function () {
 
 	$(".nav_trigger").click(function() {
 		$(".nav").fadeIn("fast");
+		console.log("ab")
 	});
 
 	// nav bar disappears when redirected to other routes
