@@ -42,10 +42,10 @@ $(document).ready(function () {
 
 	// change the content on the right of "team route" when clicked on team name on the left
 	$("#team_button a").click(function () {
-		$("#team_" + team_curr_name).hide(1000);
+		$("#team_" + team_curr_name).hide();
 		var name = $(this).attr('id').split("_")[2];
 		team_curr_name = name;
-		$("#team_" + name).show(1000);
+		$("#team_" + name).show();
 	});
 
 	// currently selected career on "career route"
