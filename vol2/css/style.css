@@ -329,7 +329,6 @@ button:active {
 .content_details {
 	width: 100%;
 	text-align: left;
-	visibility: hidden;
 	display: none;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -349,7 +348,6 @@ button:active {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	visibility: hidden;
 	display: none;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -359,7 +357,6 @@ button:active {
 }
 
 #about_aboutiam {
-	visibility: visible;
 	display: block;
 }
 
@@ -433,14 +430,39 @@ button:active {
 }
 
 #team_ae {
-	visibility: visible;
 	display: block;
 }
 /*career*/
 #career_left_bg {
 	background-image: url(../img/bg/careers_bg.jpg);
 	background-position: top;
-	opacity: 1.0
+	opacity: 1.0;
+}
+
+.interview {
+	background-color: #e1e2e5;
+	width: 75%;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+}
+
+.interview_content {
+	-webkit-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.interview h5 {
+	font-size: 15px;
+	margin: 0 0 3px 12px;
+}
+
+.interview p {
+	font-size: 10px;
+	color: black;
+	margin: 0 0 -1px 12px;
 }
 
 #career_content {
@@ -455,7 +477,9 @@ button:active {
 #career_content h2 {
 	color: white;
 	font-size: 20px;
-	margin: 0;
+	margin: 0 0 30px 0;
+	font-weight: 700;
+	text-align: center;
 }
 
 #career_content h3 {
@@ -464,6 +488,8 @@ button:active {
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	margin-left: 3px;
+	font-weight: 600;
 }
 
 #career_content h4 {
@@ -482,17 +508,13 @@ button:active {
 }
 
 .position_list {
-	margin: 30px 0;
+	margin: 25px 0;
 	padding: 0;
 }
 
 .position_list > li {
 	list-style-type: none;
-	border: 1px solid white;
-	padding: 10px;
-}
-
-.position_list li {
+	padding: 5px;
 	text-align: left;
 	font-size: 13px;
 	color: white;
@@ -500,9 +522,51 @@ button:active {
 	cursor: pointer;
 }
 
+.position_list > li > .position_box {
+	border-bottom: solid 1px white;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+
+.position_list > li > .position_box > .position_title {
+	display: inline-block;
+	float: left;
+	font-weight: 400; !important
+}
+
+.position_list > li > .position_box > .position_arrow {
+	display: inline-block;
+	float: right;
+	font-size: 13px;
+	-webkit-transform: rotate(-90deg);	
+	-ms-transform: rotate(-90deg);	
+	transform: rotate(-90deg);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.position_list > li h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.position_list li li {
+	margin-left: -30px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
 .position_content {
 	display: none;
-	visibility: visible;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
@@ -511,26 +575,47 @@ button:active {
 }
 
 #ae_ae .position_content {
-	visibility: visible;
 	display: block;
 }
 
-.application {
-	width: 100%;
-	text-align: center;
-	margin-top: 4%;
+#ae_ae .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
 }
 
-#application1,
-#application2 {
+.application {
+	width: 300px;
+	text-align: center;
+	margin-bottom: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e1e2e5;
+	height: 50px;
+}
+
+.application a {
+	text-decoration: none;
+}
+
+.application_content {
+	-webkit-transform: translateY(35%);
+	-ms-transform: translateY(35%);
+	transform: translateY(35%);
+}
+
+#application1 p,
+#application2 p{
 	color: black;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: "Poppins";
-	font-weight: 300;
+	font-weight: 700;
+	margin: 0;
+	border: 0;
+	padding: 0;
 }
 
 #career_ae {
-	visibility: visible;
 	display: block;
 }
 /*contact*/

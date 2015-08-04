@@ -6,35 +6,35 @@ app.config([
 	function ($stateProvider, $urlRouterProvider) {
 		$stateProvider
 			.state('home', {
-				url: '/home',
-				templateUrl: '/home.html',
-				controller: 'MainCtrl'
-			})
+			url: '/home',
+			templateUrl: '/home.html',
+			controller: 'MainCtrl'
+		})
 			.state('about', {
-				url: '/about',
-				templateUrl: '/about.html',
-				controller: 'MainCtrl'
-			})
+			url: '/about',
+			templateUrl: '/about.html',
+			controller: 'MainCtrl'
+		})
 			.state('careers', {
-				url: '/careers',
-				templateUrl: '/careers.html',
-				controller: 'MainCtrl'
-			})
+			url: '/careers',
+			templateUrl: '/careers.html',
+			controller: 'MainCtrl'
+		})
 			.state('clients', {
-				url: '/clients',
-				templateUrl: '/clients.html',
-				controller: 'MainCtrl'
-			})
+			url: '/clients',
+			templateUrl: '/clients.html',
+			controller: 'MainCtrl'
+		})
 			.state('contact', {
-				url: '/contact',
-				templateUrl: '/contact.html',
-				controller: 'MainCtrl'
-			})
+			url: '/contact',
+			templateUrl: '/contact.html',
+			controller: 'MainCtrl'
+		})
 			.state('team', {
-				url: '/team',
-				templateUrl: '/team.html',
-				controller: 'MainCtrl'
-			})
+			url: '/team',
+			templateUrl: '/team.html',
+			controller: 'MainCtrl'
+		});
 		$urlRouterProvider.otherwise('home');
 	}]);
 
@@ -54,24 +54,24 @@ app.controller('MainCtrl', [
 				id: 'aboutiam',
 				name: 'YOU PRESENT, WE SOLVE.',
 				content: [
-				 'International Advertising Mob consists of some of the brightest and most innovative minds on campus at the University of Illinois at Urbana-Champaign. IAM offers free advertising and marketing consulting to our local international stores, utilizing our knowledge and imagination to the full extent.',
-				 'We take a multidisciplinary approach to working on our clients\' business with our staff members coming from various scholarly backgrounds ranging from web designers to writers, psychologists, artists, mathematicians, and engineers. In our interactive environment, we work side by side, acquiring practical expertise in the field as projects continue. ',
-				 'You present your business, we present solutions—solutions to better the world. IAM not only provides solutions for your business but also helps out the community. Currently a World Vision child sponsor, IAM dedicates all profits from fund raisers and projects to children in need. At IAM, we present solutions to the world by participating in various charitable foundations.'
-			 ]
+					'International Advertising Mob consists of some of the brightest and most innovative minds on campus at the University of Illinois at Urbana-Champaign. IAM offers free advertising and marketing consulting to our local international stores, utilizing our knowledge and imagination to the full extent.',
+					'We take a multidisciplinary approach to working on our clients\' business with our staff members coming from various scholarly backgrounds ranging from web designers to writers, psychologists, artists, mathematicians, and engineers. In our interactive environment, we work side by side, acquiring practical expertise in the field as projects continue. ',
+					'You present your business, we present solutions—solutions to better the world. IAM not only provides solutions for your business but also helps out the community. Currently a World Vision child sponsor, IAM dedicates all profits from fund raisers and projects to children in need. At IAM, we present solutions to the world by participating in various charitable foundations.'
+				]
 			},
 			{
 				id: 'intro',
 				name: 'Introduction',
 				content: [
-				 'I am Ju Young Choi, founder and president of International Advertising Mob.',
-				 'It\' not about my intelligence,\nIt\'s not about my advertising background, and\n It\'s not about showcasing my pride.',
-				 'These are what I really stand for- values that define who IAM and what IAM.',
-				 'I influence.\nI provide solutions and contents that can lead the world.',
-				 'I contribute.\nI don’t stop at acquiring academic knowledge and contribute to the world.',
-				 'I don’t stagnate.\nI continue to face my problems and fix them through communicating with experts.',
-				 'I challenge.\nI challenge not for personal benefits, but for those in need.\nLast but not least, I challenge with those who share the warmth.',
-				 'IAM happy everyday.'
-			 ]
+					'I am Ju Young Choi, founder and president of International Advertising Mob.',
+					'It\' not about my intelligence,\nIt\'s not about my advertising background, and\n It\'s not about showcasing my pride.',
+					'These are what I really stand for- values that define who IAM and what IAM.',
+					'I influence.\nI provide solutions and contents that can lead the world.',
+					'I contribute.\nI don’t stop at acquiring academic knowledge and contribute to the world.',
+					'I don’t stagnate.\nI continue to face my problems and fix them through communicating with experts.',
+					'I challenge.\nI challenge not for personal benefits, but for those in need.\nLast but not least, I challenge with those who share the warmth.',
+					'IAM happy everyday.'
+				]
 			},
 		];
 

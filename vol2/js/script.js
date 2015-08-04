@@ -41,37 +41,37 @@ $(document).ready(function () {
 	var team_curr_name = "ae"
 
 	// change the content on the right of "team route" when clicked on team name on the left
-	$(document).on("click", "#team_button a", function () {
-		$("#team_" + team_curr_name).css("visibility", "hidden");
-		$("#team_" + team_curr_name).css("display", "none");
+	$("#team_button a").click(function () {
+		$("#team_" + team_curr_name).hide(1000);
 		var name = $(this).attr('id').split("_")[2];
 		team_curr_name = name;
-		$("#team_" + name).css("visibility", "visible");
-		$("#team_" + name).css("display", "block");
+		$("#team_" + name).show(1000);
 	});
 
 	// currently selected career on "career route"
 	var career_curr_name = "ae"
-
+	
 	// change the content on the right of "career route" when clicked on team name on the left
 	$(document).on("click", "#career_button a", function () {
-		$("#career" + career_curr_name).css("visibility", "hidden");
 		$("#career_" + career_curr_name).css("display", "none");
 		var name = $(this).attr('id').split("_")[2];
 		career_curr_name = name;
-		$("#career_" + name).css("visibility", "visible");
 		$("#career_" + name).css("display", "block");
 	});
 
 	var ae_curr_position = "ae_ae";
 	// show the description of selected position and hide others
-	$(document).on("click", ".position_list > li", function () {
+	$(".position_list > li").click( function () {
 		var name = $(this).attr('id');
 		if (ae_curr_position !== name) {
 			console.log(name);
-			$('#' + ae_curr_position).children(".position_content").css("display", "none");
+			$child1 = $('#' + ae_curr_position).children(".position_content");
+			$('#' + ae_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
 			ae_curr_position = name;
-			$('#' + ae_curr_position).children(".position_content").css("display", "block");
+			$child2 = $('#' + ae_curr_position).children(".position_content")
+			$('#' + ae_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
 		}
 	});
 });

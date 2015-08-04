@@ -13,15 +13,15 @@ Web Developer: Lijin Guo
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Cache-control" content="no-cache">
+		<link rel="icon" type="image/png" href="favicon.png">
 		<link href='http://fonts.googleapis.com/css?family=Poppins:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<link href="css/style.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
 		<script src="js/angularApp.js"></script>
-		<script src="js/script.js"></script>
-		<link rel="icon" type="image/png" href="favicon.png">
+
 	</head>
 
 	<body ng-app="IAM" ng-controller="MainCtrl">
@@ -103,10 +103,12 @@ Web Developer: Lijin Guo
 							<p>/<a id="career_button_{{careers[6].id}}"> China</a></p>
 						</div>
 
-						<div class="application">
-							<a id="application1" href="">Click here for online Application and more information (IAM KOREA)</a>
-							<br>
-							<a id="application2" href="">Click here for online Application and more information (IAM CHINA)</a>
+						<div class="interview">
+							<div class="interview_content">
+								<h5 style="font-weight: 700;">Interview schedule</h5>
+								<p>After the application form is submitted.</p>
+								<p>We will contact the applicants to schedule an interview.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -114,6 +116,12 @@ Web Developer: Lijin Guo
 
 			<div class="right_column" style="background-color: #ffcc5c;">
 				<div class="content">
+					<div class="application">
+						<div class="application_content">
+							<a id="application1" href=""><p>Click here for online Application (IAM KOREA)</p></a>
+							<a id="application2" href=""><p>Click here for online Application (IAM CHINA)</p></a>
+						</div>
+					</div>
 					<div ng-repeat="career in careers" class="info" id="career_content">
 						<div id="career_{{career.id}}" class="content_details">
 							<h2>{{career.team_name}}</h2>
@@ -121,7 +129,10 @@ Web Developer: Lijin Guo
 
 							<ul class="position_list">
 								<li id="{{pos.position_id}}" ng-repeat="pos in career.positions" class="position_list_button">
-									<h3>{{pos.position_name}}</h3>
+									<div class="position_box">
+										<div class="position_title"><h3>{{pos.position_name}}</h3></div>
+										<div class="position_arrow">></div>
+									</div>
 									<div class="position_content">
 										<h4>Job Description</h4>
 										<ul>
@@ -131,7 +142,6 @@ Web Developer: Lijin Guo
 										<ul>
 											<li ng-repeat="p_r in pos.pre_req">{{p_r}}</li>
 										</ul>
-										<br>
 									</div>
 								</li>
 							</ul>
@@ -251,6 +261,8 @@ Web Developer: Lijin Guo
 				</div>
 			</div>
 		</script>
+
+		<script src="js/script.js"></script>
 	</body>
 
 </html>
