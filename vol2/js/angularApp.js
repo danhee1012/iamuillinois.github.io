@@ -42,11 +42,23 @@ app.controller('MainCtrl', [
 	'$scope',
 	function ($scope) {
 		$scope.$on('$viewContentLoaded', function () {
-			if (window.location.hash.substring(2) === "home") {
-				$('#logo').width("30%");
+			if($(window).width() <= 850) {
+				console.log($(window).width())
+				if (window.location.hash.substring(2) === "home") {
+					$('#logo').css("display", "block");
+					$('#logo').width("50%");
+				}
+				else {
+					$('#logo').css("display", "none");
+				}
 			} else {
-				$('#logo').width("10%");
+				if (window.location.hash.substring(2) === "home") {
+					$('#logo').width("30%");
+				} else {
+					$('#logo').width("10%");
+				}
 			}
+
 		});
 
 		$scope.aboutus = [

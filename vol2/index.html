@@ -47,7 +47,7 @@ Web Developer: Lijin Guo
 			<div class="wrapper" id="home" style="background-color: #9CD3DB;">
 				<div id="links">
 
-					<a href="#/about">About Us</a> / <a href="#/team">The Team</a> / <a href="#/clients">Clients</a> / <a href="#/careers">Careers</a> / <a href="#/contact">Contact</a>
+					<a href="#/about">About Us</a> / <a href="#/team">The Team</a> / <a href="#/clients">Clients</a> <div class="divider"></div>/ <a href="#/careers">Careers</a> / <a href="#/contact">Contact</a>
 
 				</div>
 			</div>
@@ -73,7 +73,7 @@ Web Developer: Lijin Guo
 
 			<div class="right_column" id="about_right_bg" style="background-color: #f79f9f;">
 				<div class="content" id="about_content">
-					<div ng-repeat="about in aboutus" class="info" id="about_content">
+					<div ng-repeat="about in aboutus" class="info">
 						<div id="about_{{about.id}}" class="about_details">
 							<h3>{{about.name}}</h3>
 							<p ng-repeat="cntnt in about.content">
@@ -94,13 +94,14 @@ Web Developer: Lijin Guo
 						<h1>Careers</h1>
 						<br>
 						<div id="career_button" class="buttons">
-							<p>/<a id="career_button_{{careers[0].id}}"> Account Executive</a></p>
-							<p>/<a id="career_button_{{careers[1].id}}"> Business</a></p>
-							<p>/<a id="career_button_{{careers[2].id}}"> Creative</a></p>
-							<p>/<a id="career_button_{{careers[3].id}}"> Internal</a></p>
-							<p>/<a id="career_button_{{careers[4].id}}"> Media</a></p>
-							<p>/<a id="career_button_{{careers[5].id}}"> Tech</a></p>
-							<p>/<a id="career_button_{{careers[6].id}}"> China</a></p>
+							<p><a id="career_button_{{careers[0].id}}">/ Account Executive</a></p>
+							<p><a id="career_button_{{careers[1].id}}">/ Business</a></p>
+							<p><a id="career_button_{{careers[2].id}}">/ Creative</a></p>
+							<div class="divider2"></div>
+							<p><a id="career_button_{{careers[3].id}}">/ Internal</a></p>
+							<p><a id="career_button_{{careers[4].id}}">/ Media</a></p>
+							<p><a id="career_button_{{careers[5].id}}">/ Tech</a></p>
+							<p><a id="career_button_{{careers[6].id}}">/ China</a></p>
 						</div>
 
 						<div class="interview">
@@ -208,20 +209,14 @@ Web Developer: Lijin Guo
 						<h1>The Team</h1>
 						<br>
 						<div id="team_button" class="buttons">
-							<p>/<a id="team_button_{{teams[0].id}}"> Account Executive</a>
-							</p>
-							<p>/<a id="team_button_{{teams[1].id}}"> Business</a>
-							</p>
-							<p>/<a id="team_button_{{teams[2].id}}"> Creative</a>
-							</p>
-							<p>/<a id="team_button_{{teams[3].id}}"> Internal</a>
-							</p>
-							<p>/<a id="team_button_{{teams[4].id}}"> Media</a>
-							</p>
-							<p>/<a id="team_button_{{teams[5].id}}"> Tech</a>
-							</p>
-							<p>/<a id="team_button_{{teams[6].id}}"> China</a>
-							</p>
+							<p><a id="team_button_{{teams[0].id}}">/ Account Executive</a></p>
+							<p><a id="team_button_{{teams[1].id}}">/ Business</a></p>
+							<p><a id="team_button_{{teams[2].id}}">/ Creative</a></p>
+							<div class="divider2"></div>
+							<p><a id="team_button_{{teams[3].id}}">/ Internal</a></p>
+							<p><a id="team_button_{{teams[4].id}}">/ Media</a></p>
+							<p><a id="team_button_{{teams[5].id}}">/ Tech</a></p>
+							<p><a id="team_button_{{teams[6].id}}">/ China</a></p>
 						</div>
 					</div>
 				</div>
