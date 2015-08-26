@@ -74,4 +74,100 @@ $(document).ready(function () {
 			$child2.show();
 		}
 	});
+
+	var business_curr_position = "b_d";
+	// show the description of selected position and hide others
+	$(document).on("click",".position_list > li", function () {
+		var name = $(this).attr('id');
+		if (business_curr_position !== name) {
+			console.log(name);
+			$child1 = $('#' + business_curr_position).children(".position_content");
+			$('#' + business_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
+			business_curr_position = name;
+			$child2 = $('#' + business_curr_position).children(".position_content")
+			$('#' + business_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
+		}
+	});
+
+	var creative_curr_position = "c_gd";
+	// show the description of selected position and hide others
+	$(document).on("click",".position_list > li", function () {
+		var name = $(this).attr('id');
+		if (creative_curr_position !== name) {
+			console.log(name);
+			$child1 = $('#' + creative_curr_position).children(".position_content");
+			$('#' + creative_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
+			creative_curr_position = name;
+			$child2 = $('#' + creative_curr_position).children(".position_content")
+			$('#' + creative_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
+		}
+	});
+
+	var internal_curr_position = "i_ts";
+	// show the description of selected position and hide others
+	$(document).on("click",".position_list > li", function () {
+		var name = $(this).attr('id');
+		if (internal_curr_position !== name) {
+			console.log(name);
+			$child1 = $('#' + internal_curr_position).children(".position_content");
+			$('#' + internal_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
+			internal_curr_position = name;
+			$child2 = $('#' + internal_curr_position).children(".position_content")
+			$('#' + internal_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
+		}
+	});
+
+	var media_curr_position = "m_mp";
+	// show the description of selected position and hide others
+	$(document).on("click",".position_list > li", function () {
+		var name = $(this).attr('id');
+		if (media_curr_position !== name) {
+			console.log(name);
+			$child1 = $('#' + media_curr_position).children(".position_content");
+			$('#' + media_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
+			media_curr_position = name;
+			$child2 = $('#' + media_curr_position).children(".position_content")
+			$('#' + media_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
+		}
+	});
+
+	var production_curr_position = "p_vp";
+	// show the description of selected position and hide others
+	$(document).on("click",".position_list > li", function () {
+		var name = $(this).attr('id');
+		if (production_curr_position !== name) {
+			console.log(name);
+			$child1 = $('#' + production_curr_position).children(".position_content");
+			$('#' + production_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
+			production_curr_position = name;
+			$child2 = $('#' + production_curr_position).children(".position_content")
+			$('#' + production_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
+		}
+	});
+
+	var tech_curr_position = "t_sas";
+	// show the description of selected position and hide others
+	$(document).on("click",".position_list > li", function () {
+		var name = $(this).attr('id');
+		if (tech_curr_position !== name) {
+			console.log(name);
+			$child1 = $('#' + tech_curr_position).children(".position_content");
+			$('#' + tech_curr_position +" .position_arrow").css("transform"," rotate(-90deg)");
+			tech_curr_position = name;
+			$child2 = $('#' + tech_curr_position).children(".position_content")
+			$('#' + tech_curr_position +" .position_arrow").css("transform"," rotate(90deg)");
+			$child1.hide();
+			$child2.show();
+		}
+	});
 });

@@ -426,13 +426,13 @@ button:active {
 
 #team_content img {
 	width: 100%;
-	margin-bottom: 100px;
+	margin-bottom: 25px;
 }
 
 #team_content h3 {
 	margin: 0;
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #team_content p {
@@ -591,6 +591,66 @@ button:active {
 }
 
 #ae_ae .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
+}
+
+#b_d .position_content {
+	display: block;
+}
+
+#b_d .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
+}
+
+#c_gd .position_content {
+	display: block;
+}
+
+#c_gd .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
+}
+
+#i_ts .position_content {
+	display: block;
+}
+
+#i_ts .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
+}
+
+#m_mp .position_content {
+	display: block;
+}
+
+#m_mp .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
+}
+
+#p_vp .position_content {
+	display: block;
+}
+
+#p_vp .position_arrow {
+	-webkit-transform: rotate(90deg);	
+	-ms-transform: rotate(90deg);	
+	transform: rotate(90deg);
+}
+
+#t_sas .position_content {
+	display: block;
+}
+
+#t_sas .position_arrow {
 	-webkit-transform: rotate(90deg);	
 	-ms-transform: rotate(90deg);	
 	transform: rotate(90deg);
@@ -757,13 +817,13 @@ button:active {
 
 	.nav_trigger {
 		position: absolute;
-		top: 2%;
+		top: 3%;
 		left: 5%;
 		background-color: transparent;
 	}
 
 	.nav_menu {
-		width: 30px;
+		width: 35px;
 	}
 
 	/*home*/
@@ -844,7 +904,7 @@ button:active {
 		-ms-transform: translate(8%, 15%);
 		transform: translate(8%, 15%);
 		color: black;
-		margin-bottom: -30px;
+		margin-bottom: -15px;
 	}
 
 	.slash {
@@ -987,13 +1047,13 @@ button:active {
 
 	#team_content img {
 		width: 100%;
-		margin-bottom: 50px;
+		margin-bottom: 25px;
 	}
 
 	#team_content h3 {
 		margin: 0;
 		margin-bottom: 20px;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	#team_content p {
