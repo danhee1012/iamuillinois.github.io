@@ -169,23 +169,23 @@ app.controller('MainCtrl', [
 				id: 'ae',
 				team_name: 'ACCOUNT EXECUTIVE',
 				contents: [
-					"Account Executive Team act as a link between client and the team. AE Team must understand the client's needs/objectives and liaise with the team throughout the projects.",
-					"Team director and assistant-directors are responsible for reporting the project progress to both external and internal departments.",
-					"Team members have to be able to communicate in daily basis, conduct extensive research and analyze the data according to the client\'s request."
+					"Account Executive Team act as a link between client and the team. Account Executive Team must understand the client\'s needs /objectives and liaise with the team throughout the projects.",
+"The Director and Head of Teams (Account Executive, Account Planner and New Business) are responsible for reporting the project progress to both external and internal departments.",
+"Team members have to be able to communicate in daily basis, conduct extensive research and analyze the data according to the client's request."
 				],
 				positions: [
 					{
 						position_id: "ae_ae",
 						position_name: "Account Executive",
 						description: [
-							"Understand clients\' business goals and assist to reach the goals",
-							"Report progress and delays to both client and the president",
-							"Watch for signs of trouble and make sure both client and the president are fully aware of the project status"
+							"Understand the clients\' business goals and assist to reach the goals",
+"Report progress and delays to both client and the president ",
+"Watch for signs of trouble and make sure both client and the president are fully aware of the project status"
 						],
 						pre_req: [
 							"Ability to set and handle multiple proximate goals",
-							"Effective business communication skills between client and IAM",
-							"Resilience, being able to deal with problems and constructive criticism"
+"Effective business communication skills between client and IAM",
+"Resilience, being able to deal with problems and constructive criticism"
 						]
 					},
 					{
@@ -193,27 +193,27 @@ app.controller('MainCtrl', [
 						position_name: "Account Planner",
 						description: [
 							"Commission, conduct and analyze qualitative and quantitative research",
-							"Analyze data, trends and reports relevant to the client’s business",
-							"Monitoring the effectiveness of the campaign from customers' perspective"
+"Analyze data, trends and reports relevant to the client’s business",
+"Monitoring the effectiveness of the campaign from customers' perspective"
 						],
 						pre_req: [
 							"Highly sensitive in cultural/social trends",
-							"Excellent research and analytical thinking skills",
-							"Being able to evaluate audience response and understand sales figures from their perspective"
+"Excellent research and analytical thinking skills",
+"Being able to evaluate audience response and understand sales figures from their perspective"
 						]
 					},
 					{
 						position_id: "ae_nb",
 						position_name: "New Business",
 						description: [
-							"Identify and cultivate for new business opportunities",
-							"Develops negotiating strategies and positions by studying company strategies and operations",
-							"Analyze and examine the value of the business before becoming a client"
+						"Identify and cultivate for new business opportunities",
+"Develops negotiating strategies and positions by studying company strategies and operations",
+"Analyze and examine the value of the business before becoming a client"
 						],
 						pre_req: [
 							"Strong presentation and verbal communication skills",
-							"Possessing confidence and good interpersonal skills",
-							"Ability to work within certain constraints"
+"Possessing confidence and good interpersonal skills",
+"Ability to work within certain constraints"
 						]
 					}
 				]
@@ -391,7 +391,7 @@ app.controller('MainCtrl', [
 					},
 					{
 						position_id: "m_st",
-						position_name: "Median Strategist",
+						position_name: "Media Strategist",
 						description: [
 							"Develop campaigns for clients to increase brand awareness",
 							"Design mechanisms for achieving the requested objectives",
