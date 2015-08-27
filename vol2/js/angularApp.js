@@ -370,37 +370,36 @@ app.controller('MainCtrl', [
 				id:"media",
 				team_name: "MEDIA",
 				contents: [
-					"Media Team is responsible for exposing advertisement to the audience via social media. ",
-					"Team is responsible for weekly communications, event arrangements, and etc. ",
-					"Thus, the team members expected be be fluent in popular social media, tools and applications."
+					"Media Team is responsible for exposing advertisement to the audience via all sorts of media, starting from social media.",
+					"Team is responsible for weekly communications, event arrangements, and etc.",
+					"Thus, team members should be fluent in popular social media, tools and applications."
 				],
 				positions: [
 					{
 						position_id: "m_mp",
 						position_name: "Media Planner",
 						description: [
-							"Implement effective communication solutions to clients",
-							"Provide attractive arrangement of brand / product advertisement",
-							"Maintain records of campaigns for evaluating purposes"
+							"Research and analyze data to identify the targeting audience",
+							"Identify effective media platforms for specific advertisement",
+							"Provide attractive arrangement of brand / product advertisement"
 						],
 						pre_req: [
-							"Excellent organization skills and negotiation skills",
-							"Ability to think creatively with factual analysis to develop innovative strategies",
-							"Technical knowledge of media and communication platforms to identify the client's brand"
-
+							"Specialized in number and numeracy for data analysis.",
+							"Recommending effective type of media for the given situation, time, and location.",
+							"Ability to work fluently with factual analysis and data to develop innovative strategies"
 						]
 					},
 					{
 						position_id: "m_st",
 						position_name: "Median Strategist",
 						description: [
-							"Develop campaigns for the clients to increase brand awareness",
+							"Develop campaigns for clients to increase brand awareness",
 							"Design mechanisms for achieving the requested objectives",
 							"Innovate new marketing professionals"
 						],
 						pre_req: [
-							"Strong practical skills to organize strategies for diversity of projects",
-							"Excellent presentation and persuasive skills",
+							"Possess practical skills to organize strategies for diversity of projects",
+							"Strong presentation and persuasive skills",
 							"Excellent skills in outlining and brainstorming"
 						]
 					},
@@ -413,9 +412,9 @@ app.controller('MainCtrl', [
 							"Provide information regarding project development"
 						],
 						pre_req: [
-							"Strong written and verbal communication skills",
 							"Experience using website management tools for publishing web content",
-							"Ability to manage all sorts of creative ideas and combine it into a satisfying output"
+							"Ability to manage all sorts of creative ideas and combine them into a satisfying output",
+							"Strong written and verbal communication skills"
 						]
 					}
 				]
