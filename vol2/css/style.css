@@ -349,8 +349,9 @@ button:active {
 
 /*about*/
 #about_left_bg {
-	background-image: url(../img/bg/about_bg.jpg); 
-	background-position: center;
+	background-image: url(../img/bg/about_bg.jpeg); 
+	background-position: top;
+    opacity: 0.95;
 }
 
 .about_details {
@@ -377,8 +378,8 @@ button:active {
 /*client*/
 #client_left_bg {
 	background-image: url(../img/bg/client_bg.jpg); 
-	background-position: right;
-	opacity: 1.0;
+	background-position: center;
+	opacity: 0.7;
 }
 
 #client_icons {
@@ -722,7 +723,13 @@ button:active {
 #career_ae {
 	display: block;
 }
+
 /*contact*/
+#contact_left_bg {
+	background-image: url(../img/bg/contact_bg.jpeg); 
+	background-position: center;
+    opacity: 0.8;
+}
 
 #contact_content p {
 	font-size: 1.3em;
