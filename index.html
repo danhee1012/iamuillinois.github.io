@@ -1,304 +1,266 @@
-<!DOCTYPE html>
-<html>
+<!--
+index.html
+IAM Main Website Ver 2
+Tech Team Director: Christopher Choi
+UI/UX Designer: Sarah Minkyoung Cho
+Web Developer: Lijin Guo
+-->
+<!doctype html>
+<html lang="en">
+
 	<head>
-		<meta charset="utf-8"/>
-		<title>International Advertising Mob (IAM UIUC)</title>
-		<meta name="description=" content="International Advertising Mob consists of some of the brightest and most innovative minds on campus at the University of Illinois at Urbana-Champaign (UIUC). IAM offers free advertising and marketing consulting to our local international stores, utilizing our knowledge and imagination to the full extent.">
-		<link rel="stylesheet" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="js/changeImgOnHover.js"> </script>
-		<script src="js/script.js"></script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-									})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<title>IAM</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<link rel="icon" type="image/png" href="favicon.png">
+		<link href='http://fonts.googleapis.com/css?family=Poppins:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+		<script src="js/angularApp.js"></script>
 
-			ga('create', 'UA-63973518-1', 'auto');
-			ga('send', 'pageview');
-
-		</script>
 	</head>
 
-	<body>
-
-		<div id="IAMlogo"><a href="index.html"><img src="images/title_big_grey.png" width="250" height="166" alt="IAMlogo"/></a></div>
-
-		<div>
-			<ul id="navigation">
-				<li>
-					<h3><a href="index.html">Home</a></h3>
-				</li>
-				<li>
-					<h3>About</h3>
-					<ul>
-						<li><a href="#about">About IAM</a></li>
-						<li><a href="introduction.html">Introduction</a></li>
-					</ul>
-				</li>
-				<li>
-					<h3><a href="#clients">Clients</a></h3>
-				</li>
-				<li>
-					<h3>The Team</h3>
-					<ul>
-						<li><strong style="color: #FF7F66;">Under Construction</strong></li>
-						<li><a href="ae.html" class="not_active">Account Executive</a></li>
-						<li><a href="creative.html" class="not_active">Creative</a></li>
-						<li><a href="me.html" class="not_active">Media and Events</a></li>
-						<li><a href="operation.html" class="not_active">Treasurer</a></li>
-					</ul>
-				</li>
-				<li>
-					<h3><a href="#recruiting">Recruiting</a></h3>
-				</li>
-				<li>
-					<h3><a href="#contact">Contact Us</a></h3>
-				</li>
-			</ul>
-		</div>
-
-		<div id="iamgif"><img src="http://iamuiuc.com/iamgif.gif" width="800" height="383" alt="iamgif"/> </div>
-
-
-		<div id="about">
-
-			<h2 class="aboutTitle">About IAM</h2>	
-			<video class="IAMVideo" width="600" height="374" controls>
-				<source src="http://iamuiuc.com/intro.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-			<p class="aboutBody1">You present. We solve. </p> <hr class="shortLine">
-			<p class="aboutBody2">
-				International Advertising Mob consists of some of the brightest and most innovative minds on campus at the University of Illinois at Urbana-Champaign. IAM offers free advertising and marketing consulting to our local international stores, utilizing our knowledge and imagination to the full extent. </p> <hr class="shortLine">
-			<p class="aboutBody2"> We take a multidisciplinary approach to working on our clients’ business with our staff members coming from various scholarly backgrounds ranging from web designers to writers, psychologists, artists, mathematicians, and engineers.  In our interactive environment, we work side by side, acquiring practical expertise in the field as projects continue. </p> <hr class="shortLine">
-			<p class="aboutBody2"> You present your business, we present solutions—solutions to better the world. IAM not only provides solutions for your business but also helps out the community. Currently a World Vision child sponsor, IAM dedicates all profits from fund raisers and projects to children in need. At IAM, we present solutions to the world by participating in various charitable foundations. </p> <hr class="shortLine">
-			<p class="aboutBody2">Present your business for better solutions—innovation for a good cause, IAM
-			</p>
-
-
-		</div>
-
-
-		<div id="clients"> 
-			<hr class="longLine">
-			<h2 class="clientTitle">Clients</h2> 	
-			<div id="logos">
-				<div class="logoIndividual"><img src="images/blink.png" width="148" height="111" alt="blink"/> </div>	
-				<div class="logoIndividual"><img src="images/cu_asian_times.png" width="148" height="111" alt="cu_asian_times"/> </div>		
-				<div class="logoIndividual"><img src="images/dear72.png" width="148" height="111" alt="dear72"/> </div>
-				<div class="logoIndividual"><img src="images/sts_inc.png" width="148" height="111" alt="sts"/> </div>
-				<div class="logoIndividual"><img src="images/marymond.png" width= "148" height= "111" alt="marymond"/> </div>
-				<div class="logoIndividual"><img src="images/orange_leaf.png" width="148" height= "111" alt="orange_leaf"/> </div>
-				<div class="logoIndividual"><img src="images/artbox.png" width="148" height="111" alt="artbox"/></div>
-				<div class="logoIndividual"><img src="images/caffebene.png" width="148" height="111" alt="caffebene"/></div>
-				<div class="logoIndividual"><img src="images/shinval.png" width="148" height="111" alt="caffebene"/></div>
-				<div class="logoIndividual"><img src="images/mtour_us.png" width="148" height="111" alt="mtour_us"/></div>
+	<body ng-app="IAM" ng-controller="MainCtrl">
+		<div class="nav">
+			<div class="nav_row">
+				<a ng-repeat="nav in navs" href="#{{ nav.id }}" class="nav_button">
+					<div class="nav_col">
+						<div class="nav_content">
+							<img id="nav_icon_{{nav.id}}" ng-src="{{ nav.image }}">
+							<h4>{{ nav.content }}</h4>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 
+		<a id="logo" href="#/home"><img class="" src="img/logo_white_background.png">
+		</a>
 
+		<div data-ui-view id="whole_page"></div>
 
+		<script type="text/ng-template" id="/home.html">
+			<div class="wrapper" id="home" style="background-color: #9CD3DB;">
+				<div id="links">
 
+					<a href="#/about">About Us</a> / <a href="#/team">The Team</a> / <a href="#/clients">Clients</a> <div class="divider"></div>/ <a href="#/careers">Careers</a> / <a href="#/contact">Contact</a>
 
-		<div id="recruiting">
-			<hr class="longLine">
-			<h2 class="recruitingTitle">Recruitment</h2>
-			<p class="recruitingLinkKorea"> <a href="https://docs.google.com/forms/d/1laaAOK6zZ_qf9sxZhR8vAll_h88r_0bIIVEGIa4Oiok/viewform" target="_blank"> Click here for online Application and more information (IAM KOREA)</a></p> 
-			<p class="recruitingLinkChina"> <a href="https://docs.google.com/forms/d/1Y_N2KE4aFp9idVVfk7yTkguZBn5qfnJvIwpVcTk375Y/viewform" target="_blank"> Click here for online Application and more information (IAM CHINA)</a></p> 
+				</div>
+			</div>
+		</script>
 
-			<p class="recruitingTitleOne">Advisory Committee</p>	
-			<p class="recruitingTitleTwo">Advisor</p>
-			<p class="recruitingBody">
-				-      Participates and network with IAM staffs as an advisor <br>
-				-      Advises from an independent and expert perspective from various types of professions and experience <br>
-				-      Includes alumni outside campus or currently in the professional industry <br>
-			</p>		
+		<script type="text/ng-template" id="/about.html">
+			<div class="left_column" id="about_left_bg">
+				<button class="nav_trigger"><img class="nav_menu" src="img/nav/menu2.png">
+				</button>
+				<div class="left_title">
+					<div class="left_content">
+						<h1>About Us</h1>
+						<br>
+						<div id="about_button" class="buttons">
+							<p><a id="about_button_{{aboutus[0].id}}">/ About IAM</a>
+							</p>
+							<p><a id="about_button_{{aboutus[1].id}}">/ Introduction</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-			<p class="recruitingTitleTwo">Mentor</p>
-			<p class="recruitingBody">
-				-      Provides insight and inspire current staff members with lectures <br>
-				-      Develops networks with staffs for future assistant <br>
-				-      Includes students or professors in campus that are able to attend general meetings <br>
-			</p>		
+			<div class="right_column" id="about_right_bg" style="background-color: #f79f9f;">
+				<div class="content" id="about_content">
+					<div ng-repeat="about in aboutus" class="info">
+						<div id="about_{{about.id}}" class="about_details">
+							<h3>{{about.name}}</h3>
+							<p ng-repeat="cntnt in about.content">
+								{{cntnt}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
 
+		<script type="text/ng-template" id="/careers.html">
+			<div class="left_column" id="career_left_bg">
+				<button class="nav_trigger"><img class="nav_menu" src="img/nav/menu5.png">
+				</button>
+				<div class="left_title career_left">
+					<div class="left_content">
+						<h1>Careers</h1>
+						<br>
+						<div id="career_button" class="buttons">
+							<p><a id="career_button_{{careers[0].id}}">/ Account Executive</a></p>
+							<p><a id="career_button_{{careers[1].id}}">/ Business</a></p>
+							<p><a id="career_button_{{careers[2].id}}">/ Creative</a></p>
+							<div class="divider2"></div>
+							<p><a id="career_button_{{careers[3].id}}">/ Internal</a></p>
+							<p><a id="career_button_{{careers[4].id}}">/ Media</a></p>
+							<p><a id="career_button_{{careers[5].id}}">/ Production</a></p>
+							<p><a id="career_button_{{careers[6].id}}">/ Tech</a></p>
+						</div>
 
+						<div class="app_info">
+							<div class="application app_one">
+								<div class="application_image"><img src="img/application.png"></div>
+								<div class="application_content">
+																<h5>Online Application:</h5>
 
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">Creative Team</p>	
-			<p class="recruitingTitleTwo">Copywriter</p>
-			<p class="recruitingBody">
-				-      Writes taglines, stories, articles and summarize various types of activities <br>
-				-      Requires strong communication and writing skills in both English and Korean <br>
-				-      Skilled in employing persuasive, professional and paraphrasing writing <br>
-			</p>	
+									<a id="application1" href="https://docs.google.com/forms/d/1BOy3pjVlma1LnEIFIO7nx-_aX0gub1gqV5togxhX2pw/viewform?c=0&w=1"><p>/IAM KOREA</p></a>
+									<a id="application2" href="https://docs.google.com/forms/d/1cUEIi-vEwF6V7bpS0x1HpHyDs-OHvTRA4fD4VVWwIu8/viewform?c=0&w=1"><p>/IAM CHINA</p></a>
+								</div>
+							</div>
+							<div class="application app_two">
+								<div class="application_image"><img src="img/interview.png"></div>
+								<div class="application_content">
+									<h5>Interview schedule:</h5>
+									<p>We will contact the applicants to schedule an interview after the application form is submitted.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-			<p class="recruitingTitleTwo">Video Producer</p>
-			<p class="recruitingBody">
-				-      Creates, produces, and edits video contents <br>
-				-      Experienced in editing software including Adobe Premiere, After Effects, Final Cut, or Vegas <br>
-			</p>	
+			<div class="right_column" style="background-color: #ffcc5c;">
+				<div class="content">
+					<div ng-repeat="career in careers" class="info" id="career_content">
+						<div id="career_{{career.id}}" class="content_details">
+							<h2>{{career.team_name}}</h2>
+							<p ng-repeat="cont in career.contents">{{cont}}</p>
 
-			<p class="recruitingTitleTwo">Graphic Designer</p>
-			<p class="recruitingBody">
-				-      Designs and produces graphical visual contents <br>
-				-      Experienced in image editing software, including Adobe Photoshop and Illustrator <br>
-			</p>	
+							<ul class="position_list">
+								<li id="{{pos.position_id}}" ng-repeat="pos in career.positions" class="position_list_button">
+									<div class="position_box">
+										<div class="position_title"><h3>{{pos.position_name}}</h3></div>
+										<div class="position_arrow">></div>
+									</div>
+									<div class="position_content">
+										<h4>Job Description</h4>
+										<ul>
+											<li ng-repeat="dscrptn in pos.description">{{dscrptn}}</li>
+										</ul>
+										<h4>Preferred Personalities / Skills</h4>
+										<ul>
+											<li ng-repeat="p_r in pos.pre_req">{{p_r}}</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
 
-			<p class="recruitingTitleTwo">Music Producer</p>
-			<p class="recruitingBody">
-				-      Selects, produces and edits music/audio for video contents <br>
-				-      Experience with Audio producing/editing software is a plus <br>
-			</p>	
+		<script type="text/ng-template" id="/clients.html">
+			<div class="left_column" id="client_left_bg">
+				<button class="nav_trigger"><img class="nav_menu" src="img/nav/menu4.png">
+				</button>
+				<div class="left_title">
+					<h1>Clients</h1>
+				</div>
+			</div>
 
-			<p class="recruitingTitleTwo">Photographer</p>
-			<p class="recruitingBody">
-				-      Takes photographs at events for marketing purposes <br>
-				-      Experience in photography and image editing skills is a plus <br>
-			</p>	
+			<div class="right_column" style="background-color: #96ceb4;">
+				<div class="content" id="client_icons">
+					<div class="client_row">
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_artbox.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_blink.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_caffebene.png">
+						</div>
+					</div>
+					<div class="client_row">
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_cu_asian_times.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_dear72.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_marymond.png">
+						</div>
+					</div>
+					<div class="client_row">
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_mtour_us.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_orange_leaf.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_shinval.png">
+						</div>
+					</div>
+					<div class="client_row">
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_sts.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_dt.png">
+						</div>
+						<div class="client_col"><img class="client_icon" src="img/client_logo/logo_smg.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
 
+		<script type="text/ng-template" id="/team.html">
+			<div class="left_column" id="team_left_bg">
+				<button class="nav_trigger"><img class="nav_menu" src="img/nav/menu3.png">
+				</button>
+				<div class="left_title">
+					<div class="left_content">
+						<h1>The Team</h1>
+						<br>
+						<div id="team_button" class="buttons">
+							<p><a id="team_button_{{teams[0].id}}">/ Account Executive</a></p>
+							<p><a id="team_button_{{teams[1].id}}">/ Business</a></p>
+							<p><a id="team_button_{{teams[2].id}}">/ Creative</a></p>
+							<div class="divider2"></div>
+							<p><a id="team_button_{{teams[3].id}}">/ Internal</a></p>
+							<p><a id="team_button_{{teams[4].id}}">/ Media</a></p>
+							<p><a id="team_button_{{teams[5].id}}">/ Production</a></p>
+							<p><a id="team_button_{{teams[6].id}}">/ Tech</a></p>
+							<p><a id="team_button_{{teams[7].id}}">/ China</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<div class="right_column" style="background-color: #ffeead;">
+				<div class="content">
+					<div ng-repeat="team in teams" class="info" id="team_content">
+						<div id="team_{{team.id}}" class="content_details">
+							<img ng-src="{{team.image}}">
+							<h3>{{team.name}}</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</script>
 
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">Account Executive Team</p>	
-			<p class="recruitingBody">
-				-      Researches and analyzes our target markets <br>
-				-  	   Forecasts our strategies and tactics to approach our clients <br>
-				-      Requires vigorous time commitment in researching and exploring <br>
-			</p>	
+		<script type="text/ng-template" id="/contact.html">
+			<div class="left_column" id="contact_left_bg">
+				<button class="nav_trigger"><img class="nav_menu" src="img/nav/menu6.png">
+				</button>
+				<div class="left_title">
+					<h1>Contact Us</h1>
+				</div>
+			</div>
 
+			<div class="right_column" style="background-color: #e1e2e5;">
+				<div class="content">
+					<div id="contact_content">
+						<h4>Email us</h4>
+						<p>iamuiuc@gmail.com</p>
+						<h4>Call us</h4>
+						<p>1 (224) 875-0441</p>
+					</div>
+				</div>
+			</div>
+		</script>
 
+		<script src="js/script.js"></script>
+	</body>
 
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">Internal Management</p>	
-			<p class="recruitingTitleTwo">Internal Management Director</p>
-			<p class="recruitingBody">
-				-      Manages overall infrastructure and enhances internal control <br>
-				-      Requires strong leadership and a business-processed mind <br>
-			</p>	
-
-			<p class="recruitingTitleTwo">Human Resource Specialist</p>
-			<p class="recruitingBody">
-				-      Manages and interacts with members, alumni and professionals<br>
-				-      Active and interactive personality is a plus <br>
-			</p>
-
-			<p class="recruitingTitleTwo">Treasurer </p>
-			<p class="recruitingBody">
-				-      Prepares financial reports, accounts, business memorandums and legal documentations <br>
-				-      Proficiency in MS Excel and detailed oriented personality is a plus <br>
-			</p>
-
-
-			<p class="recruitingTitleTwo">General Council </p>
-			<p class="recruitingBody">
-				-      Provides formal opinions regarding legal and administrative issues <br>
-				-      Background in law and/or political science is a plus <br>
-			</p>
-
-
-			<p class="recruitingTitleTwo">Secretary</p>
-			<p class="recruitingBody">
-				-      Performs administrative activities and encourage internal communication <br>
-				-      Organization skills and processing skills are a plus <br>
-			</p>
-
-
-
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">Media Team</p>
-			<p class="recruitingTitleTwo">Media Director</p>
-			<p class="recruitingTitleTwo">Media Manager</p>
-			<p class="recruitingTitleTwo">Media Planner</p>
-			<p class="recruitingTitleTwo">Media Specialist</p>
-			<p class="recruitingTitleTwo">Reporter</p>
-			<p class="recruitingBody">
-				-      Plans and executes social media related projects <br>
-				-      Requires a creative and innovative mind set <br>
-				-      Proficient in dealing with social media tools <br>
-			</p>
-
-
-
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">Business Team</p>
-			<p class="recruitingTitleTwo">Business Director</p>
-			<p class="recruitingTitleTwo">Business Manager</p>
-			<p class="recruitingTitleTwo">Business Specialist</p>
-			<p class="recruitingBody">
-				-      Plans and executes marketing events for clients <br>
-				-      Guarantees planned strategies to correlate in process <br>
-				-      Creative and interactive personality is a plus <br>
-			</p>
-
-
-
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">Tech Team</p>
-			<p class="recruitingTitleTwo">Search Engine Optimization (SEO) Specialist</p>
-			<p class="recruitingBody">
-				-      Has knowledge of SEO Technical aspects – HTML, URL, keyword analysis, search engine crawlers, website management, Java, CSS, Iframes, etc. <br>
-				-      Understands digital marketing, the modern digital capabilities / technology stack, web content development processes and agile development <br>
-				-      Proven ability to help and/or teach other team members with various backgrounds to learn about SEO <br>
-			</p>
-
-			<p class="recruitingTitleTwo">iOS Developer</p>
-			<p class="recruitingBody">
-				-      1+ years of software development experience <br>
-				-      6+ months of iOS development <br>
-				-      Familiar with Objective-C, Cocoa Touch, and Swift <br>
-				-      Proven ability to help and/or teach other team members with various backgrounds to program iOS platform <br>
-			</p>
-
-			<p class="recruitingTitleTwo">Android Developer</p>
-			<p class="recruitingBody">
-				-      1+ years of software development experience <br>
-				-      6+ months of Android development <br>
-				-      Experience with Android SDK/NDK and Android Studio setting <br>
-				-      Proven ability to help and/or teach other team members with various backgrounds to program Android platform <br>
-			</p>
-
-			<p class="recruitingTitleTwo">Web Developer</p>
-			<p class="recruitingBody">
-				-      6+ months of web development experience <br>
-				-      Experience with web applications and programming languages such as HTML, CSS, JavaScript, jQuery, and API's. <br>
-				-      Proven ability to help and/or teach other team members with various backgrounds to program web platform <br>
-				-      May have to commit +10 hours per week <br>
-			</p>
-
-			<p class="recruitingTitleTwo">User Experience (UX) Designer</p>
-			<p class="recruitingBody">
-				-      2+ years of graphic designing experience <br>
-				-      Skilled with Photoshop, Illustrator, InDesign, Fireworks and associated design tools <br>
-				-      Knowledge of HTML, CSS, JavaScript, JQuery, Objective-C (iOS), C++, Java (Android) <br>
-			</p>
-
-
-
-			<hr class="bar shortLine">
-			<p class="recruitingTitleOne">IAM Members</p>
-			<p class="recruitingBody">
-				-      Participate in social events, professional events and design contests<br>
-				-      Network and build relationships with IAM staffs<br></p>
-
-			<hr class="lastbar shortLine">
-			<p class="recruitingTitleTwo"><br>Interview schedule:</p>
-			<p class="recruitingBody">After the application form is submitted, we will contact the applicants to schedule an interview.</p>
-		</div>
-
-
-
-		<div class="contact">
-			<hr class="longLine">
-			<h2 class="contactTitle" id="contact">Contact</h2>
-			<p class="contactTitle2">Email us</p>
-			<p class="contactBody">
-				<a href="mailto:iamuiuc@gmail.com">iamuiuc@gmail.com</a></p>
-			<p class="contactTitle2"> Call us</p>
-			<p class="contactBody"> 1 (224) 875-0441</p>
-		</div>
-	</body>	
 </html>
