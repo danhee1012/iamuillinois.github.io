@@ -8,6 +8,12 @@ $("#arrow-home").click(function () {
 
 $("#arrow-ride").click(function () {
     $('html, body').animate({
+        scrollTop: $("#section-floor-plan").offset().top
+    }, 1000);
+});
+
+$("#arrow-floor-plan").click(function () {
+    $('html, body').animate({
         scrollTop: $("#section-reservation").offset().top
     }, 1000);
 });
